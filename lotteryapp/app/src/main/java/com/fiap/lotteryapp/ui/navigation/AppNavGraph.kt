@@ -39,7 +39,7 @@ fun AppNavGraph(
                 })
         ) {
             val amount = it.arguments?.getInt(Routes.Result.Args.AMOUNT) ?: 6
-            ResultScreen(amount)
+            ResultScreen(amount, onBackClick= {navController.popBackStack()})
         }
 
     }
