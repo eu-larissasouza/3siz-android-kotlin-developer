@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun JokenPokemonTheme(
+fun JoKenPokemonTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,
