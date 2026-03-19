@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HouseOfWesteros</string>
+    <string name="result_house">Você pertence à %s</string>
+</resources>
